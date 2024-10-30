@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is an ecomerce project for making Asma Express">
+    <title>E-comerce Website</title>
+     <!-- google Fonts start -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+ rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Monoton&family=Montserrat:wght@100..900&display=swap"
+ rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+
+     <!-- google Fonts end-->
+     <!-- FontAwsome start-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous"
+     referrerpolicy="no-referrer" />
+     <!-- FontAwsome End-->
+     <!-- Css link -->
+     <link rel="stylesheet" href="css/style.css">
+     <!-- Css link  end-->
+
+</head>
+<body>
+   <!-- nav bar start here -->
+    <!-- <i class="fas fa-bars fa-2x" id="menu-icon"></i> -->
+   <nav id="menu" class="hidden">
+    <ul class="upper flex-around">
+        <li class="list"><a href="index.html" class="link">Home</a></li>
+        <li class="list"><a href="register.html" class="link">Register</a></li>
+        <li class="list"><a href="login.html" class="link">Log in </a></li>
+        <li class="list"><a href="index.html" class="link">Log Out </a></li>
+        <li class="list"><a href="contact.html" class="link">Contact</a></li>
+        <li class="list"><a href="profile.html" class="link"><img src="Images/23.jpg" alt="Pic" class="profile"></a></li>
+        
+        
+    </ul>
+    <!-- lower Nav -->
+     <ul class="lower flex-around">
+        <list><a href="index.html" class="link nav-brand" >Pathan Express</a></list>
+        <list><a href="cart.html" class="link "><span><i class=" fa-solid fa-cart-shopping"></i></span>
+            Cart 2 Products - $124.40
+        </a></list>
+     </ul>
+   </nav>
+    
+   <!-- nav bar end here -->
+    <!-- header start here -->
+     <header class="header">
+        <div class="banner flex-around">
+            <marquee  class="banner-title" direction="">50% Sales going on</marquee>
+            <div class="features flex-around">
+                <article class="feature flex-center">
+           <i class="fa-solid fa-truck feature-icon"></i>
+           <h3>Shiping within 7 days</h3>
+                </article>
+                <article class="feature flex-center">
+                    <i class="fa-brands fa-rocketchat feature-icon"></i>
+                    <h3>Support 24/7</h3>
+                         </article>
+                         <article class="feature flex-center">
+                            <i class="fa-regular fa-credit-card feature-icon"></i>
+                            <h3>Safe Payment</h3>
+                                 </article>
+            </div>
+        </div>
+     </header>
+    <!-- header start end-->
+    <!-- main  start here -->
+    <main class="flex-center">
+        <div class="sidebar">
+            <section class="categories-section">
+                <h3 class="section-title">Category</h3>
+                <ul class="list">
+                    <li class="list-item"> 
+                        <label for="phone">
+                            <input type="checkbox" name="phone" id="phone" value="phone">Phone
+                        </label>
+                    </li>
+                    <li class="list-item"> 
+                        <label for="tablets">
+                            <input type="checkbox" name="tablets" id="tablets" value="tablets">Tablets
+                        </label>
+                    </li>
+                    <li class="list-item"> 
+                        <label for="television">
+                            <input type="checkbox" name="television" id="television" value="television">Television
+                        </label>
+                    </li>
+                  
+                        
+                  <li class="list-item">
+
+                    <label for="computers">
+                        <input type="checkbox" name="computers" id="computers" value="computers">Computers
+                    </label>
+                  </li>
+                    <li class="list-item"> 
+                        <label for="headphones">
+                            <input type="checkbox" name="headphones" id="headphones" value="headphones">Headphones
+                        </label>
+                    </li>
+                </ul>
+            </section>
+            <br>
+            <section class="price-section">
+                <h3 class="section-title">Price Range</h3>
+                <ul class="list">
+                    <li class="list-item"> 
+                        <label for="price1">
+                            <input type="radio" name="price1" id="price1" value="[0,20]">$0-20$
+                        </label>
+                        </li><li class="list-item"> 
+                            <label for="price2">
+                                <input type="radio" name="price2" id="price2" value="[20,40]">$20-40$
+                            </label>
+                            </li>
+                            <li class="list-item"> 
+                                <label for="price3">
+                                    <input type="radio" name="price3" id="price3" value="[40,60]">$40-60$
+                                </label>
+                                </li>
+                                <li class="list-item"> 
+                                    <label for="price4">
+                                        <input type="radio" name="price4" id="price4" value="[60,80]">$60-80$
+                                    </label>
+                                    </li>
+                                    <li class="list-item"> 
+                                        <label for="price5">
+                                            <input type="radio" name="price5" id="price5" value="[80,100]">$80-120$
+                                        </label>
+                                        </li>
+                        
+                    
+                </ul>
+            </section>
+            <section class="shiping-section">
+                <h3 class="section-title">Shiping Option</h3>
+                <ul class="list">
+                    <li class="list-item"> 
+                        <label for="free">
+                            <input type="radio" name="Shipping" id="free" value="free">Free Shipping
+                        </label>
+                          </li>
+                          <li class="list-item"> 
+                            <label for="paid">
+                                <input type="radio" name="Shipping" id="paid" value="paid">Paid Shiping
+                            </label>
+                              </li>
+                        
+                    
+                </ul>
+            </section>
+        <!-- </div>content product -->
+        <div class="main-content">
+            <!-- search bar -->
+        <section class="actions flex-around">
+            <div class="action-sort">
+         <label for="sort">Sort By:</label>
+         <select name="sort" id="sort">
+            <option value="sold">Most Sold First</option>
+            <option value="rating">Most Rated First</option>
+            <option value="price">Cheapest  First</option>
+            <option value="arrival">Newest First</option>
+            <option value="discount">Biggest Discount First</option>
+         </select>
+            </div>
+            <div class="action-search">
+                <input type="text" name="" placeholder="Search Product">
+                <button class=""><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </section>
+        <!-- Product section  start here -->
+         <section class="products">
+        <article class="product card">
+   <div class="badge">
+ <span>5 in Stock</span>
+ <hr class="hr-design">
+ <span>3 Sold</span>
+
+    </div>
+    <img src="Images/un.jpg" alt="Headphone" class="product-img">
+    <div class="product-body">
+        <h3 class="product-name">Sony V-4 Headphone</h3>
+        <p>
+            <span class="dot green"></span>
+            <span class="dot black"></span>
+            <span class="dot red"></span>
+<p class="prduct-dec">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, laborum! Doloremque animi libero consequuntur et porro? Cum nostrum tempore veritatis porro eaque, deleniti, obcaecati 
+    voluptatibus fuga consequuntur ex a explicabo....
+    <a href="product.html" class="learn-more">Learn More</a>
+</p>
+        </p>
+        <h4 class="product-price">$225.99</h4>
+        <p class="rating-product">Rating: 4.5/5</p>
+        <button class="btn product-btn">Add to Cart</button>
+    </div>
+        </article>
+        <article class="product card">
+            <div class="badge">
+          <span>2 in Stock</span>
+          <hr class="hr-design">
+          <span>9 Sold</span>
+         
+             </div>
+             <img src="Images/watch.jpg" alt="Watch" class="product-img">
+             <div class="product-body">
+                 <h3 class="product-name">Smart Watch</h3>
+                 <p>
+                     <span class="dot green"></span>
+                     <span class="dot black"></span>
+                     <span class="dot red"></span>
+         <p class="prduct-dec">
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, laborum! Doloremque animi libero consequuntur et porro? Cum nostrum tempore veritatis porro eaque, deleniti, obcaecati 
+             voluptatibus fuga consequuntur ex a explicabo....
+             <a href="product.html" class="learn-more">Learn More</a>
+         </p>
+                 </p>
+                 <h4 class="product-price">$400.99</h4>
+                 <p class="rating-product">Rating: 4.2/5</p>
+                 <button class="btn product-btn">Add to Cart</button>
+             </div>
+                 </article>
+                 <article class="product card">
+                    <div class="badge">
+                  <span>3 in Stock</span>
+                  <hr class="hr-design">
+                  <span>6 Sold</span>
+                 
+                     </div>
+                     <img src="Images/apple.jpg" alt="Headphone" class="product-img">
+                     <div class="product-body">
+                         <h3 class="product-name">Apple Laptop</h3>
+                         <p>
+                             <span class="dot green"></span>
+                             <span class="dot black"></span>
+                             <span class="dot red"></span>
+                 <p class="prduct-dec">
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, laborum! Doloremque animi libero consequuntur et porro? Cum nostrum tempore veritatis porro eaque, deleniti, obcaecati 
+                     voluptatibus fuga consequuntur ex a explicabo....
+                     <a href="product.html" class="learn-more">Learn More</a>
+                 </p>
+                         </p>
+                         <h4 class="product-price">$225.99</h4>
+                         <p class="rating-product">Rating: 4.5/5</p>
+                         <button class="btn product-btn">Add to Cart</button>
+                     </div>
+                         </article>
+                         <article class="product card">
+                            <div class="badge">
+                          <span>4 in Stock</span>
+                          <hr class="hr-design">
+                          <span>8 Sold</span>
+                         
+                             </div>
+                             <img src="Images/un.jpg" alt="Headphone" class="product-img">
+                             <div class="product-body">
+                                 <h3 class="product-name">Sony V-4 Headphone</h3>
+                                 <p>
+                                     <span class="dot green"></span>
+                                     <span class="dot black"></span>
+                                     <span class="dot red"></span>
+                         <p class="prduct-dec">
+                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, laborum! Doloremque animi libero consequuntur et porro? Cum nostrum tempore veritatis porro eaque, deleniti, obcaecati 
+                             voluptatibus fuga consequuntur ex a explicabo....
+                             <a href="product.html" class="learn-more">Learn More</a>
+                         </p>
+                                 </p>
+                                 <h4 class="product-price">$225.99</h4>
+                                 <p class="rating-product">Rating: 4.5/5</p>
+                                 <button class="btn product-btn">Add to Cart</button>
+                             </div>
+                                 </article>
+                                 <article class="product card">
+                                    <div class="badge">
+                                  <span>5 in Stock</span>
+                                  <hr class="hr-design">
+                                  <span>10 Sold</span>
+                                 
+                                     </div>
+                                     <img src="Images/un.jpg" alt="Headphone" class="product-img">
+                                     <div class="product-body">
+                                         <h3 class="product-name">Sony V-4 Headphone</h3>
+                                         <p>
+                                             <span class="dot green"></span>
+                                             <span class="dot black"></span>
+                                             <span class="dot red"></span>
+                                 <p class="prduct-dec">
+                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, laborum! Doloremque animi libero consequuntur et porro? Cum nostrum tempore veritatis porro eaque, deleniti, obcaecati 
+                                     voluptatibus fuga consequuntur ex a explicabo....
+                                     <a href="product.html" class="learn-more">Learn More</a>
+                                 </p>
+                                         </p>
+                                         <h4 class="product-price">$225.99</h4>
+                                         <p class="rating-product">Rating: 4.5/5</p>
+                                         <button class="btn product-btn">Add to Cart</button>
+                                     </div>
+                                         </article>
+                                         <article class="product card">
+                                            <div class="badge">
+                                          <span>6 in Stock</span>
+                                          <hr class="hr-design">
+                                          <span>12 Sold</span>
+                                         
+                                             </div>
+                                             <img src="Images/un.jpg" alt="Headphone" class="product-img">
+                                             <div class="product-body">
+                                                 <h3 class="product-name">Sony V-4 Headphone</h3>
+                                                 <p>
+                                                     <span class="dot green"></span>
+                                                     <span class="dot black"></span>
+                                                     <span class="dot red"></span>
+                                         <p class="prduct-dec">
+                                             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, laborum! Doloremque animi libero consequuntur et porro? Cum nostrum tempore veritatis porro eaque, deleniti, obcaecati 
+                                             voluptatibus fuga consequuntur ex a explicabo....
+                                             <a href="product.html" class="learn-more">Learn More</a>
+                                         </p>
+                                                 </p>
+                                                 <h4 class="product-price">$225.99</h4>
+                                                 <p class="rating-product">Rating: 4.5/5</p>
+                                                 <button class="btn product-btn">Add to Cart</button>
+                                             </div>
+                                                 </article>
+         </section>
+        <!-- Product section here end  -->
+         <!-- Pagginatiopn start -->
+          <div class="pagination">
+            <button class= "pagination-btn">
+                <i class="fas fa-less-than"></i>
+            </button>
+            <button class= "pagination-btn">2</button>
+            <button class="pagination-btn">3</button>
+            <button class= "pagination-btn">4</button>
+            <button class="pagination-btn">5</button>
+            <button class="pagination-btn">6</button>
+            <button class="pagination-btn">7</button>
+            <button class="pagination-btn">8</button>
+            <button class= "pagination-btn">9</button>
+            <button class= "pagination-btn">10</button>
+            <button class= "pagination-btn">....</button>
+            <button class= "pagination-btn">50</button>
+            <button class= "pagination-btn">
+                <i class="fas fa-greater-than"></i>
+            </button>
+          </div>
+         <!-- Pagginatiopn end here-->
+        </div>
+    </main>
+
+   <!-- main end here-->
+    <!-- Footer Start Here -->
+     <footer class="footer flex-around ">
+        <div class="flex-around">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="email" id="subscribe" name="subscribe" class="footer-input" placeholder="Your Email Address">
+            <button class=" btn subscribe-btn">subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright 2024 Pathan Express All Right Reserved</p>
+        </div>
+
+     </footer>
+    <!-- Footer end Here -->
+     <script src="Script/index.js"></script>
+</body>
+</html>
